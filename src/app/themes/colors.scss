@@ -1,0 +1,16 @@
+$primary-color: #4684f0;
+$white-color: #fff;
+$border-color: #dcdcdc;
+
+$themes: (
+  light: (
+    color-background: #fafafa,
+    color-text: #37474f,
+    primary-color: #4684f0,
+  ),
+  dark: (
+    color-background: #37474f,
+    color-text: #fafafa,
+    primary-color: #b967f0,
+  ),
+);

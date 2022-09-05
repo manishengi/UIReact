@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Entity Live Monitory"
+    },
+    {
+        "id": 2,
+        "name": "Entity Details"
+    },
+    {
+        "id": 3,
+        "name": "Asset"
+    },
+    {
+        "id": 4,
+        "name": "Report"
+    },
+    {
+        "id": 5,
+        "name": "Complaint"
+    },
+    {
+        "id": 6,
+        "name": "Admin Menu"
+    }
+]

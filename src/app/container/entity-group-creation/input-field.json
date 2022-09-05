@@ -1,0 +1,45 @@
+[
+    {
+        "label": "Location Name",
+        "key": "txtLocationName",
+        "value": "",
+        "isRequire": true
+    },
+    {
+        "label": "Location Type",
+        "key": "txtLocationType",
+        "value": "",
+        "isRequire": true
+    },
+    {
+        "label": "Latitude",
+        "key": "txtLatitude",
+        "value": "",
+        "isRequire": true
+    },
+    {
+        "label": "Longitude",
+        "key": "txtLongitude",
+        "value": "",
+        "isRequire": true
+    },
+    {
+        "label": "Contact Info",
+        "key": "txtContactInfo",
+        "value": "",
+        "isRequire": true
+    },
+    {
+        "label": "Email",
+        "key": "txtEmail",
+        "value": "",
+        "isRequire": true
+    },
+    {
+        "label": "Parent Entity",
+        "key": "selectParentEntity",
+        "value": "--Select--",
+        "isRequire": true,
+        "type": "dropdown"
+    }
+]

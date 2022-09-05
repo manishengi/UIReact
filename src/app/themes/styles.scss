@@ -1,0 +1,215 @@
+@import "./mixins.scss";
+@import "./colors.scss";
+@import "./constant.style.scss";
+
+body {
+  @include theme-aware("background", "color-background");
+}
+
+/**
+* header
+*/
+.div-header {
+  height: 50px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  transition: 320ms;
+  @include theme-aware("background-color", "primary-color");
+}
+
+.icon-cursor {
+  cursor: pointer;
+}
+
+/**
+* auth login
+*/
+.txt-login {
+  color: $primary-color;
+  margin-bottom: 1.5em;
+  margin-top: 1rem;
+}
+
+.div-login {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  align-items: center;
+  min-height: 60vh;
+  border-radius: $border-radius;
+  border: 1px solid lightgray;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 1em;
+  background-color: $white-color;
+}
+
+.input-field {
+  margin-bottom: 10px;
+}
+
+.btn-login {
+  margin-top: 3rem;
+}
+
+.login-spinner {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border: 1px solid lightgray;
+  justify-content: center;
+  height: $button-height;
+  border: 1px solid $border-color;
+  margin-top: 3rem;
+  border-radius: $border-radius;
+}
+
+.login-forgot-password {
+  border: none !important;
+  height: 30px;
+  background-color: $white-color !important;
+  color: $primary-color !important;
+  font-size: 14px !important;
+  margin-top: 5px;
+}
+
+.login-alert-box {
+  margin-top: 10px;
+  margin-bottom: -20px;
+}
+
+.div-main-login {
+  background-image: linear-gradient(to right, #02aab0, #00cdac);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.div-captcha {
+  margin-top: 20px;
+}
+
+/**
+* dashboard
+*/
+.div-dashboard {
+  @include theme-aware("color", "color-text");
+}
+
+/**
+* entity landing
+*/
+.btn-go {
+  width: 100px;
+}
+
+.div-dropdown {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.btn-header-entity {
+  background-color: transparent;
+  color: $primary-color;
+  border: none;
+}
+
+.btn-header-entity:hover {
+  background-color: transparent;
+}
+
+.div-header-entity {
+  display: flex;
+  flex-direction: row;
+  background-color: lightgray;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.div-profile {
+  @include theme-aware("color", "color-text");
+}
+
+.btn-create-client {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 180px;
+}
+
+.div-top-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.btn-super-top {
+  width: 180px;
+  background-color: white;
+  color: $primary-color;
+}
+
+.client-loader {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+
+.div-create-client {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.div-create-client-inner {
+  // width: 320px;
+  background-color: white;
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: $border-radius;
+  border: 1px solid lightgray;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.btn-create-submit {
+  margin-top: 1rem;
+}
+
+.div-input-create-client {
+  margin-top: 1rem;
+}
+
+.lbl-create-title {
+  @include theme-aware("color", "primary-color");
+}
+
+.input-error-msg {
+  font-size: 0.8em;
+  color: red;
+}
+
+.btn-spinner {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border: 1px solid lightgray;
+  justify-content: center;
+  height: $button-height;
+  border: 1px solid $border-color;
+  margin-top: 3rem;
+  border-radius: $border-radius;
+}
